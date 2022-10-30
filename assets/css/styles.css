@@ -31,6 +31,7 @@
   margin-left: 5vw;
   margin-bottom: 40vh;
   background: url("/assets/img/home/logo_acordaJovem.png") center / contain no-repeat;
+  max-width: none;
 }
 
 #wrapper {
@@ -41,7 +42,7 @@
   /*padding: 0 0 0 0!important;*/
 }
 
-.contentLogo > div > button {
+.contentLogo > div > a {
   border-radius: 20px;
   width: 200px;
   letter-spacing: 0px;
