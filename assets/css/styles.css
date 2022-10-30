@@ -24,14 +24,31 @@
   background: url("/assets/img/home/Acorda%20Jovem%202022_site.jpg") center / cover;
 }
 
-.contentLogo {
-  position: absolute;
-  width: 90vw;
-  height: 65vh;
-  margin-left: 5vw;
-  margin-bottom: 40vh;
-  background: url("/assets/img/home/logo_acordaJovem.png") center / contain no-repeat;
-  max-width: none;
+.text-center.d-flex.justify-content-center.align-items-end.contentLogo {
+}
+
+@media (max-width: 2560px) {
+  .contentLogo {
+    background: url("/assets/img/home/logo_acordaJovem.png") center / contain no-repeat;
+    position: absolute;
+    width: 90vw;
+    height: 65vh;
+    margin-left: 5vw;
+    margin-bottom: 40vh;
+    max-width: none;
+  }
+}
+
+@media (max-width: 563px) {
+  .contentLogo {
+    position: absolute;
+    width: 90vw;
+    height: 65vh;
+    margin-left: 5vw;
+    margin-bottom: 40vh;
+    max-width: none;
+    background: url("/assets/img/home/Acorda%20Jovem_logo.png") center / contain no-repeat;
+  }
 }
 
 #wrapper {
