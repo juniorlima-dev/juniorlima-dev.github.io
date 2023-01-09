@@ -1,0 +1,48 @@
+#logo-evento {
+  /*max-width: 650px;*/
+  /*margin-left: auto;*/
+}
+
+#col-texto {
+  text-align: left;
+  /*height: auto;*/
+  /*width: auto;*/
+  /*overflow: hidden;*/
+  position: relative;
+}
+
+#col-texto > h1, p {
+  width: 100%;
+  color: var(--bs-light);
+  margin-bottom: 4vw;
+}
+
+#col-texto > p {
+  margin-bottom: 2vw;
+}
+
+#col-img > picture > img {
+  max-height: 650px;
+}
+
+#col-img {
+}
+
+#info-content {
+  position: absolute;
+  width: 95%!important;
+  min-width: 0;
+  /*max-height: 100px;*/
+  height: 85vh;
+  max-width: 2500px;
+  top: calc((100vh / 2) - (85vh / 2 ));
+  left: calc((100vw / 2) - (95vw / 2));
+  /*background-color: yellowgreen;*/
+  /*overflow: hidden;*/
+  padding-bottom: 150px;
+}
+
+body {
+  overflow-x: hidden;
+}
+

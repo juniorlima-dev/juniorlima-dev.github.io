@@ -45,7 +45,7 @@
 @media (max-width:767px) {
   .clock-wrapper {
     padding-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 0;
   }
 }
 
