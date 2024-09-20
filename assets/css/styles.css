@@ -78,3 +78,15 @@
   text-align: center;
 }
 
+#modal-1 > div > div > div > a {
+  margin: 10px!important;
+  background: #00a3dd!important;
+  font-weight: bold!important;
+  width: auto;
+  height: auto;
+  color: white;
+  /*color: #fff;*/
+  /*background-color: #0b5ed7!important;*/
+  /*border-color: #0a58ca;*/
+}
+
